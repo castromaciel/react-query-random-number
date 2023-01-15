@@ -1,7 +1,8 @@
-const App = () => (
+import './App.css'
+import { CryptoNumber } from './partials/CryptoNumber/CryptoNumber'
+
+export const App = () => (
   <div>
-    Hello World
+    <CryptoNumber />
   </div>
 )
-
-export default App
