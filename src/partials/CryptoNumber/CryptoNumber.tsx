@@ -34,6 +34,7 @@ export const CryptoNumber = () => {
 
   return (
     <div>
+      <h1>Crypto Number</h1>
       { 
         isLoading 
           ? <h2>...Loading</h2>
